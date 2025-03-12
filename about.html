@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới Thiệu - Thành Viên</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #f3f3f3, #d9e4f5);
+        }
+        .team-card {
+            transition: transform 0.3s ease-in-out;
+        }
+        .team-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #fff;
+        }
+        .footer {
+            background: rgba(0, 0, 0, 0.8);
+        }
+    </style>
+</head>
+<body>
+
+      <!-- Thanh điều hướng -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Đỗ Văn Tiến</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="about.html">Giới Thiệu</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container my-5 text-center">
+        <h2 class="mb-4">Giới Thiệu Thành Viên</h2>
+        <div class="row">
+            <!-- Thành viên 1 -->
+            <div class="col-md-3">
+                <a href="./QuyPr/GioiThieuQuy.html" class="text-decoration-none text-dark">
+                    <div class="card team-card p-3">
+                        <img src="img/quy.jpg" class="avatar mx-auto d-block" alt="Vũ Quốc Quý">
+                        <h5 class="mt-3">Vũ Quốc Quý</h5>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Thành viên 2 -->
+            <div class="col-md-3">
+                <a href="./Phi/GioiThieuPhi.html" class="text-decoration-none text-dark">
+                    <div class="card team-card p-3">
+                        <img src="img/phi.jpg" class="avatar mx-auto d-block" alt="Phi">
+                        <h5 class="mt-3">Phi</h5>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Thành viên 3 -->
+            <div class="col-md-3">
+                <a href="./tien/GioiThieuTien.html" class="text-decoration-none text-dark">
+                    <div class="card team-card p-3">
+                        <img src="img/tien.jpg" class="avatar mx-auto d-block" alt="Tiến">
+                        <h5 class="mt-3">Tiến</h5>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Thành viên 4 -->
+            <div class="col-md-3">
+                <a href="./Phuong/GioiThieuPhuong.html" class="text-decoration-none text-dark">
+                    <div class="card team-card p-3">
+                        <img src="img/Phuong.jpg" class="avatar mx-auto d-block" alt="Minh">
+                        <h5 class="mt-3">Minh</h5>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer text-white text-center py-3 mt-5">
+        <p>&copy; 2025 Nhóm 11 - Thầy Trung</p>
+    </footer>
+
+</body>
+</html>
